@@ -3,8 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{66A29E33-98DE-44AF-8AB3-9413C3928294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{75C25A34-EB9A-40E4-B1D7-53AF0472931C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LolCrafter.RiotApi", "LolCrafter.RiotApi\LolCrafter.RiotApi.csproj", "{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LolCrafter.RiotPump", "LolCrafter.RiotPump\LolCrafter.RiotPump.csproj", "{93D3BC03-32B2-433F-9C9B-9503F50FB8B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LolCrafter.UnitTest", "LolCrafter.UnitTest\LolCrafter.UnitTest.csproj", "{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LolCrafter.IntegrationTest", "LolCrafter.IntegrationTest\LolCrafter.IntegrationTest.csproj", "{09D20395-5B3E-4931-AD39-580399F62942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LolCrafter.Models", "LolCrafter.Models\LolCrafter.Models.csproj", "{0E91F5B1-72A0-4762-B275-BB01FA3A12E1}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D3BC03-32B2-433F-9C9B-9503F50FB8B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D3BC03-32B2-433F-9C9B-9503F50FB8B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D3BC03-32B2-433F-9C9B-9503F50FB8B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D3BC03-32B2-433F-9C9B-9503F50FB8B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09D20395-5B3E-4931-AD39-580399F62942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09D20395-5B3E-4931-AD39-580399F62942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09D20395-5B3E-4931-AD39-580399F62942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09D20395-5B3E-4931-AD39-580399F62942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E91F5B1-72A0-4762-B275-BB01FA3A12E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E91F5B1-72A0-4762-B275-BB01FA3A12E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E91F5B1-72A0-4762-B275-BB01FA3A12E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E91F5B1-72A0-4762-B275-BB01FA3A12E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C155AB5-A911-4D8A-A31D-70D9DAE79CE9} = {66A29E33-98DE-44AF-8AB3-9413C3928294}
+		{93D3BC03-32B2-433F-9C9B-9503F50FB8B7} = {66A29E33-98DE-44AF-8AB3-9413C3928294}
+		{F0A7113E-D6B4-4AA2-82BD-AA772D2AB1EF} = {75C25A34-EB9A-40E4-B1D7-53AF0472931C}
+		{09D20395-5B3E-4931-AD39-580399F62942} = {75C25A34-EB9A-40E4-B1D7-53AF0472931C}
+		{0E91F5B1-72A0-4762-B275-BB01FA3A12E1} = {66A29E33-98DE-44AF-8AB3-9413C3928294}
 	EndGlobalSection
 EndGlobal
